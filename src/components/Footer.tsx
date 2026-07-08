@@ -30,7 +30,7 @@ export default function Footer({ onBookClick }: FooterProps) {
               </div>
               <div className="flex flex-col">
                 <span className="text-lg font-bold font-display tracking-wider text-white">
-                  CANADA <span className="text-[#D4AF37]">CLEAN</span>
+                  GREEN <span className="text-[#D4AF37]">CLEAN</span>
                 </span>
                 <span className="text-[9px] uppercase tracking-widest text-[#D4AF37] font-semibold font-display">
                   Turnover Specialists
@@ -39,7 +39,7 @@ export default function Footer({ onBookClick }: FooterProps) {
             </div>
 
             <p className="text-xs text-slate-400 leading-relaxed max-w-sm font-normal">
-              Canada Clean is Canada's premier professional turnover cleaning service. We help hosts automate scheduling, secure guest satisfaction, and scale listings effortlessly.
+              Green Clean is America's premier professional turnover cleaning service. We help hosts automate scheduling, secure guest satisfaction, and scale listings effortlessly.
             </p>
 
             {/* Contacts details */}
@@ -50,11 +50,11 @@ export default function Footer({ onBookClick }: FooterProps) {
               </p>
               <p className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-emerald-400" />
-                <span>support@canadaclean.ca</span>
+                <span>support@greenclean.com</span>
               </p>
               <p className="flex items-center gap-3">
                 <MapPin className="w-4 h-4 text-emerald-400" />
-                <span>Toronto, Vancouver, Montréal</span>
+                <span>New York, Seattle, Chicago</span>
               </p>
             </div>
           </div>
@@ -108,7 +108,7 @@ export default function Footer({ onBookClick }: FooterProps) {
 
         {/* Bottom row */}
         <div className="pt-10 flex flex-col md:flex-row justify-between items-center gap-6 text-xs text-slate-500 font-medium">
-          <p>© {currentYear} Canada Clean Inc. All rights reserved. Made in Canada 🇨🇦</p>
+          <p>© {currentYear} Green Clean Inc. All rights reserved. Made in the USA 🇺🇸</p>
           
           <div className="flex gap-6">
             <a href="#faq" className="hover:text-slate-300 transition-colors">Privacy Policy</a>

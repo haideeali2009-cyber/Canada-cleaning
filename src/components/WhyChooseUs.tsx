@@ -61,13 +61,13 @@ export default function WhyChooseUs() {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16 space-y-4">
           <div className="inline-flex items-center gap-2 bg-emerald-50 dark:bg-emerald-950/30 text-emerald-800 dark:text-emerald-400 px-3.5 py-1.5 rounded-full text-xs font-semibold uppercase tracking-wider">
-            Why Canada Clean Stands Out
+            Why Green Clean Stands Out
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 dark:text-white tracking-tight">
             Designed Exclusively for Short-Term Rental Success
           </h2>
           <p className="text-slate-500 dark:text-slate-400">
-            Standard maid services don't understand Airbnb. We do. Discover the features that make us Canada's most trusted short-term rental cleaning partner.
+            Standard maid services don't understand Airbnb. We do. Discover the features that make us America's most trusted short-term rental cleaning partner.
           </p>
         </div>
 

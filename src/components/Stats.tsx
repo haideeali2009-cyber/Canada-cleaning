@@ -3,7 +3,7 @@ import { Sparkles, Calendar, Heart, ShieldAlert } from "lucide-react";
 
 export default function Stats() {
   const stats = [
-    { value: 2500, label: "Properties Cleaned", suffix: "+", desc: "Short-term rentals across Canada" },
+    { value: 2500, label: "Properties Cleaned", suffix: "+", desc: "Short-term rentals across the US" },
     { value: 98, label: "Client Satisfaction", suffix: "%", desc: "Consistent 5-star feedback" },
     { value: 5000, label: "Happy Guests", suffix: "+", desc: "Pristine check-ins completed" },
     { value: 24, label: "Booking Support", suffix: "/7", desc: "On-demand dispatcher availability" },

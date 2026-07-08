@@ -1,6 +1,6 @@
 {
-  "name": "Canada Clean",
-  "description": "Premium short-term rental and Airbnb turnover cleaning services across Canada.",
+  "name": "Green Clean",
+  "description": "Premium short-term rental and Airbnb turnover cleaning services across the US.",
   "requestFramePermissions": [],
   "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
 }

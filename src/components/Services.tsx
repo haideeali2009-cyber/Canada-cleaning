@@ -34,7 +34,7 @@ export default function Services({ onServiceSelect }: ServicesProps) {
     {
       id: "prop-mgmt",
       title: "Property Management Cleaning",
-      desc: "Reliable, bulk-scheduled recurring cleaning contracts for property managers holding larger portfolios across Canada.",
+      desc: "Reliable, bulk-scheduled recurring cleaning contracts for property managers holding larger portfolios across the US.",
       icon: <Layers className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />,
       tag: "Business",
     },

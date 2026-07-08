@@ -23,11 +23,11 @@ export default function FAQ() {
     },
     {
       question: "Are you insured?",
-      answer: "Yes, Canada Clean is fully licensed and carries $5M in commercial general liability insurance, comprehensive commercial auto coverages, and complete worker compensation insurance (WSIB / provincial equivalent) for all active staff, protecting you and your property.",
+      answer: "Yes, Green Clean is fully licensed and carries $5M in commercial general liability insurance, comprehensive commercial auto coverages, and complete Workers' Compensation insurance (state equivalent) for all active staff, protecting you and your property.",
     },
     {
       question: "Which areas do you serve?",
-      answer: "We provide high-end turnover cleaning services across Canada's most active short-term rental hubs, including Greater Toronto (GTA), Metro Vancouver, Greater Montréal, Calgary, Edmonton, Ottawa, and surrounding tourism corridors (e.g. Whistler, Niagara, and Muskoka). See our interactive coverage map below for details!",
+      answer: "We provide high-end turnover cleaning services across the US's most active short-term rental hubs, including New York City, Seattle, Chicago, Denver, Boston, Los Angeles, and surrounding tourism corridors (e.g. Hamptons, Lake Tahoe, and Orlando). See our interactive coverage map below for details!",
     },
   ];
 

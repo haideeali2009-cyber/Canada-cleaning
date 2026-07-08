@@ -40,7 +40,7 @@ export default function Hero({ onBookClick, onQuoteClick }: HeroProps) {
           {/* Tagline */}
           <div className="inline-flex items-center gap-2 bg-emerald-500/15 border border-emerald-500/30 px-3.5 py-1.5 rounded-full text-emerald-400 text-xs font-semibold uppercase tracking-widest mb-6 backdrop-blur-md animate-fade-in">
             <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-            Canada's #1 Short-Term Rental Cleaners
+            America's #1 Short-Term Rental Cleaners
           </div>
 
           {/* Headline */}

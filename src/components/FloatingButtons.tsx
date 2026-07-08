@@ -23,7 +23,7 @@ export default function FloatingButtons({ onBookClick }: FloatingButtonsProps) {
 
       {/* WhatsApp Help chat button */}
       <a
-        href="https://wa.me/18005550192?text=Hi%20Canada%20Clean%2C%20I%20would%20like%20to%20get%20a%20turnover%20cleaning%20quote%20for%20my%20short-term%20rental%20property%20please."
+        href="https://wa.me/18005550192?text=Hi%20Green%20Clean%2C%20I%20would%20like%20to%20get%20a%20turnover%20cleaning%20quote%20for%20my%20short-term%20rental%20property%20please."
         target="_blank"
         rel="noopener noreferrer"
         className="pointer-events-auto bg-[#25D366] hover:bg-[#20ba5a] text-white p-4 rounded-full shadow-2xl hover:shadow-[#25D366]/30 transition-all duration-300 transform hover:-translate-y-1 active:scale-95 flex items-center justify-center border border-white/10 focus:outline-none"
