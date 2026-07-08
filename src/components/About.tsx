@@ -37,11 +37,11 @@ export default function About() {
             </h2>
             
             <p className="text-lg text-slate-600 dark:text-slate-300 leading-relaxed font-normal">
-              At Green Clean, we understand that every guest expects hotel-level cleanliness. Our experienced team delivers meticulous turnover cleaning that prepares your property for the next check-in—on time, every time.
+              At Canada Clean, we understand that every guest expects hotel-level cleanliness. Our experienced team delivers meticulous turnover cleaning that prepares your property for the next check-in—on time, every time.
             </p>
             
             <p className="text-slate-500 dark:text-slate-400 leading-relaxed">
-              Based out of major short-term rental hubs across the United States, we serve as the critical operational backbone for Airbnb hosts, VRBO owners, and professional property managers. We align with your check-out/check-in windows to handle fast turnarounds flawlessly.
+              Based out of major short-term rental hubs across Canada, we serve as the critical operational backbone for Airbnb hosts, VRBO owners, and professional property managers. We align with your check-out/check-in windows to handle fast turnarounds flawlessly.
             </p>
 
             <div className="pt-4 border-t border-slate-200 dark:border-slate-800">

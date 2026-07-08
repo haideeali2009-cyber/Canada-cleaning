@@ -77,7 +77,7 @@ export default function App() {
           
           <div className="space-y-2">
             <h1 className="text-2xl font-extrabold font-display text-white tracking-widest uppercase">
-              GREEN <span className="text-emerald-400">CLEAN</span>
+              CANADA <span className="text-emerald-400">CLEAN</span>
             </h1>
             <p className="text-slate-400 text-xs font-semibold uppercase tracking-widest font-display">
               Initializing Premium Turnover...

@@ -57,7 +57,7 @@ export default function HowItWorks() {
             Our Flawless Process
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 dark:text-white tracking-tight">
-            How Green Clean Prepares Your Listing
+            How Canada Clean Prepares Your Listing
           </h2>
           <p className="text-slate-500 dark:text-slate-400">
             From checkout to the next check-in, we orchestrate a swift and seamless cleaning sequence so you don't have to lift a finger.

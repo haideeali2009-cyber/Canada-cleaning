@@ -98,16 +98,16 @@ const seedEmails: EmailLog[] = [
   {
     id: "email-101a",
     to: "sarah.j@example.com",
-    subject: "Green Clean - Turnover Booking Confirmed (#booking-101)",
-    body: "Hi Sarah Jenkins,\n\nYour turnover cleaning booking has been approved! Our professional cleaning team is scheduled to arrive at 128 Broadway, Suite 2402, New York, NY 10005 on 2026-07-10 during the 11:00 AM - 2:00 PM window.\n\nThank you for choosing Green Clean!\n\nBest regards,\nGreen Clean Operations Team",
+    subject: "Canada Clean - Turnover Booking Confirmed (#booking-101)",
+    body: "Hi Sarah Jenkins,\n\nYour turnover cleaning booking has been approved! Our professional cleaning team is scheduled to arrive at 128 Bremner Blvd, Suite 2402, Toronto, ON M5J 3A6 on 2026-07-10 during the 11:00 AM - 2:00 PM window.\n\nThank you for choosing Canada Clean!\n\nBest regards,\nCanada Clean Operations Team",
     sentAt: new Date(Date.now() - 3600000 * 47).toISOString(),
     type: "customer"
   },
   {
     id: "email-101b",
-    to: "bookings@greenclean.com",
-    subject: "NEW BOOKING CONFIRMED: Sarah Jenkins - New York, NY",
-    body: "Green Clean Operations,\n\nBooking #booking-101 has been APPROVED.\n\nCustomer: Sarah Jenkins (sarah.j@example.com)\nAddress: 128 Broadway, Suite 2402, New York, NY 10005\nService: Airbnb Turnover Cleaning (2 Bed, 2 Bath)\nDate: 2026-07-10 @ 11:00 AM - 2:00 PM\nNotes: Key is in lockbox code 4829...",
+    to: "bookings@canadaclean.ca",
+    subject: "NEW BOOKING CONFIRMED: Sarah Jenkins - Toronto, ON",
+    body: "Canada Clean Operations,\n\nBooking #booking-101 has been APPROVED.\n\nCustomer: Sarah Jenkins (sarah.j@example.com)\nAddress: 128 Bremner Blvd, Suite 2402, Toronto, ON M5J 3A6\nService: Airbnb Turnover Cleaning (2 Bed, 2 Bath)\nDate: 2026-07-10 @ 11:00 AM - 2:00 PM\nNotes: Key is in lockbox code 4829...",
     sentAt: new Date(Date.now() - 3600000 * 47).toISOString(),
     type: "business"
   }
@@ -182,17 +182,17 @@ app.post("/api/bookings", (req, res) => {
     const customerEmail: EmailLog = {
       id: customerEmailId,
       to: email,
-      subject: `Green Clean - Turnover Cleaning Request Received (#${newBooking.id})`,
-      body: `Hi ${fullName},\n\nWe have received your turnover cleaning request for ${address}.\n\n--- Booking Details ---\nBooking ID: #${newBooking.id}\nService: ${serviceType}\nSize: ${bedrooms} Bed, ${bathrooms} Bath\nDate: ${preferredDate}\nTime Slot: ${preferredTimeSlot}\nEstimated Total: $${totalCost} USD\n\nOur team will contact you shortly to confirm availability and lock in your schedule!\n\nThank you for choosing Green Clean.\n\nBest regards,\nGreen Clean Booking Support`,
+      subject: `Canada Clean - Turnover Cleaning Request Received (#${newBooking.id})`,
+      body: `Hi ${fullName},\n\nWe have received your turnover cleaning request for ${address}.\n\n--- Booking Details ---\nBooking ID: #${newBooking.id}\nService: ${serviceType}\nSize: ${bedrooms} Bed, ${bathrooms} Bath\nDate: ${preferredDate}\nTime Slot: ${preferredTimeSlot}\nEstimated Total: $${totalCost} CAD\n\nOur team will contact you shortly to confirm availability and lock in your schedule!\n\nThank you for choosing Canada Clean.\n\nBest regards,\nCanada Clean Booking Support`,
       sentAt: new Date().toISOString(),
       type: "customer"
     };
 
     const businessEmail: EmailLog = {
       id: businessEmailId,
-      to: "bookings@greenclean.com",
+      to: "bookings@canadaclean.ca",
       subject: `[NEW INQUIRY] #${newBooking.id} - ${fullName} (${serviceType})`,
-      body: `New turnover cleaning request received from website:\n\nCustomer: ${fullName}\nEmail: ${email}\nPhone: ${phone}\nAddress: ${address}\nService: ${serviceType} (${bedrooms} Bed, ${bathrooms} Bath)\nPreferred Date: ${preferredDate}\nPreferred Time Slot: ${preferredTimeSlot}\nEstimated Price: $${totalCost} USD\nNotes: ${additionalNotes || "None"}\n\nPlease review and approve this booking in your Admin Dashboard.`,
+      body: `New turnover cleaning request received from website:\n\nCustomer: ${fullName}\nEmail: ${email}\nPhone: ${phone}\nAddress: ${address}\nService: ${serviceType} (${bedrooms} Bed, ${bathrooms} Bath)\nPreferred Date: ${preferredDate}\nPreferred Time Slot: ${preferredTimeSlot}\nEstimated Price: $${totalCost} CAD\nNotes: ${additionalNotes || "None"}\n\nPlease review and approve this booking in your Admin Dashboard.`,
       sentAt: new Date().toISOString(),
       type: "business"
     };
@@ -235,8 +235,8 @@ app.patch("/api/bookings/:id", (req, res) => {
       const approvalEmail: EmailLog = {
         id: approvalEmailId,
         to: bookings[index].email,
-        subject: `Green Clean - Turnover Booking Confirmed (#${bookings[index].id})`,
-        body: `Hi ${bookings[index].fullName},\n\nYour turnover cleaning booking (#${bookings[index].id}) has been approved!\n\nOur team is scheduled to arrive at ${bookings[index].address} on ${bookings[index].preferredDate} during the ${bookings[index].preferredTimeSlot} window.\n\nThank you for choosing Green Clean!\n\nBest regards,\nGreen Clean Operations Team`,
+        subject: `Canada Clean - Turnover Booking Confirmed (#${bookings[index].id})`,
+        body: `Hi ${bookings[index].fullName},\n\nYour turnover cleaning booking (#${bookings[index].id}) has been approved!\n\nOur team is scheduled to arrive at ${bookings[index].address} on ${bookings[index].preferredDate} during the ${bookings[index].preferredTimeSlot} window.\n\nThank you for choosing Canada Clean!\n\nBest regards,\nCanada Clean Operations Team`,
         sentAt: new Date().toISOString(),
         type: "customer"
       };

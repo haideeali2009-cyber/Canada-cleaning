@@ -6,19 +6,19 @@ export default function Testimonials() {
     {
       name: "Sarah Jenkins",
       role: "Superhost (2 Listings)",
-      location: "New York, NY",
-      text: "Green Clean has completely transformed how we manage our Airbnb. Every guest compliments the cleanliness, and our occupancy has surged! Highly consistent team.",
+      location: "Toronto, ON",
+      text: "Canada Clean has completely transformed how we manage our Airbnb. Every guest compliments the cleanliness, and our occupancy has surged! Highly consistent team.",
     },
     {
       name: "Marcus Vance",
       role: "Vance Properties CEO",
-      location: "Seattle, WA",
+      location: "Vancouver, BC",
       text: "Always on time and incredibly consistent. They manage turnovers across all 8 of our downtown lofts flawlessly. The photo inspection reports keep us at ease.",
     },
     {
       name: "Chantelle Tremblay",
       role: "Property Manager",
-      location: "Chicago, IL",
+      location: "Montréal, QC",
       text: "Professional team, easy communication, and flawless results every visit. Last-minute guest check-ins are no longer a source of panic for our staff.",
     },
   ];
@@ -37,7 +37,7 @@ export default function Testimonials() {
             Voices of Five-Star Success
           </div>
           <h2 className="text-3xl sm:text-4xl font-extrabold font-display text-slate-900 dark:text-white tracking-tight">
-            Loved by America's Top Hosts
+            Loved by Canada's Top Hosts
           </h2>
           <p className="text-slate-500 dark:text-slate-400">
             Hear directly from property owners and vacation rental managers who have automated their turnover cleaning schedules.

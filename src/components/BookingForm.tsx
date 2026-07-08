@@ -24,8 +24,8 @@ export default function BookingForm({
   setSelectedService,
   onBookingSuccess,
 }: BookingFormProps) {
-  const [fullName, setFullName] = useState("Green Clean Guest");
-  const [email, setEmail] = useState("operations@greenclean.com");
+  const [fullName, setFullName] = useState("Canada Clean Guest");
+  const [email, setEmail] = useState("operations@canadaclean.ca");
   const [phone, setPhone] = useState("1-800-555-TURNS");
   const [address, setAddress] = useState("");
   const [bedrooms, setBedrooms] = useState(2);
@@ -107,8 +107,8 @@ export default function BookingForm({
       }
 
       // Reset form
-      setFullName("Green Clean Guest");
-      setEmail("operations@greenclean.com");
+      setFullName("Canada Clean Guest");
+      setEmail("operations@canadaclean.ca");
       setPhone("1-800-555-TURNS");
       setAddress("");
       setBedrooms(2);
@@ -380,52 +380,51 @@ export default function BookingForm({
                 Service Hubs & Coverage
               </h3>
               
-              {/* Custom interactive SVG map representing major cities across the US */}
+              {/* Custom interactive SVG map representing major cities across Canada */}
               <div className="bg-white dark:bg-slate-950 p-4 rounded-2xl border border-slate-200 dark:border-slate-800 flex items-center justify-center relative overflow-hidden">
                 <svg viewBox="0 0 400 240" className="w-full h-auto text-slate-300 dark:text-slate-800">
-                  {/* Highly stylized outline of the US */}
+                  {/* Highly stylized outline of Canada */}
                   <path 
-                    d="M 50 80 Q 150 70 250 80 T 350 90 T 360 160 Q 320 200 220 180 T 120 190 Q 60 180 50 80 Z" 
+                    d="M 50 140 Q 60 100 80 80 T 150 60 T 250 60 T 320 80 T 360 120 T 380 160 Q 300 180 200 190 Z" 
                     fill="none" 
                     stroke="currentColor" 
                     strokeWidth="2" 
                     strokeDasharray="4 4"
                   />
                   {/* Interactive Nodes for Cities */}
-                  {/* Seattle */}
+                  {/* Vancouver */}
                   <g className="group cursor-help">
-                    <circle cx="70" cy="90" r="5" className="fill-emerald-500 animate-ping" />
-                    <circle cx="70" cy="90" r="4" className="fill-emerald-600" />
-                    <text x="75" y="85" className="text-[10px] font-bold font-display fill-slate-800 dark:fill-slate-200">Seattle</text>
+                    <circle cx="70" cy="140" r="5" className="fill-emerald-500 animate-ping" />
+                    <circle cx="70" cy="140" r="4" className="fill-emerald-600" />
+                    <text x="75" y="135" className="text-[10px] font-bold font-display fill-slate-800 dark:fill-slate-200">Vancouver</text>
                   </g>
-                  {/* Denver */}
+                  {/* Calgary */}
                   <g className="group cursor-help">
-                    <circle cx="160" cy="130" r="4" className="fill-emerald-600" />
-                    <text x="165" y="125" className="text-[10px] font-bold font-display fill-slate-800 dark:fill-slate-200">Denver</text>
+                    <circle cx="120" cy="130" r="4" className="fill-emerald-600" />
+                    <text x="125" y="125" className="text-[10px] font-bold font-display fill-slate-800 dark:fill-slate-200">Calgary</text>
                   </g>
-                  {/* Chicago */}
+                  {/* Toronto */}
                   <g className="group cursor-help">
-                    <circle cx="250" cy="120" r="5" className="fill-emerald-500 animate-ping" />
-                    <circle cx="250" cy="120" r="4" className="fill-emerald-600" />
-                    <text x="255" y="115" className="text-[10px] font-bold font-display fill-slate-800 dark:fill-slate-200">Chicago</text>
+                    <circle cx="260" cy="175" r="5" className="fill-emerald-500 animate-ping" />
+                    <circle cx="260" cy="175" r="4" className="fill-emerald-600" />
+                    <text x="265" y="170" className="text-[10px] font-bold font-display fill-slate-800 dark:fill-slate-200">Toronto (GTA)</text>
                   </g>
-                  {/* New York */}
+                  {/* Ottawa */}
                   <g className="group cursor-help">
-                    <circle cx="320" cy="110" r="5" className="fill-emerald-500 animate-ping" />
-                    <circle cx="320" cy="110" r="4" className="fill-emerald-600" />
-                    <text x="325" y="105" className="text-[10px] font-bold font-display fill-slate-800 dark:fill-slate-200">New York (NYC)</text>
+                    <circle cx="290" cy="165" r="4" className="fill-emerald-600" />
+                    <text x="295" y="160" className="text-[10px] font-bold font-display fill-slate-800 dark:fill-slate-200">Ottawa</text>
                   </g>
-                  {/* Los Angeles */}
+                  {/* Montreal */}
                   <g className="group cursor-help">
-                    <circle cx="80" cy="170" r="5" className="fill-emerald-500 animate-ping" />
-                    <circle cx="80" cy="170" r="4" className="fill-emerald-600" />
-                    <text x="85" y="165" className="text-[10px] font-bold font-display fill-slate-800 dark:fill-slate-200">Los Angeles</text>
+                    <circle cx="310" cy="155" r="5" className="fill-emerald-500 animate-ping" />
+                    <circle cx="310" cy="155" r="4" className="fill-emerald-600" />
+                    <text x="315" y="150" className="text-[10px] font-bold font-display fill-slate-800 dark:fill-slate-200">Montréal</text>
                   </g>
                 </svg>
               </div>
-
+ 
               <p className="text-[11px] text-slate-400 mt-4 text-center leading-relaxed">
-                🟢 Green indicators show 24/7 turnaround availability. We currently support New York, California, Illinois, Colorado, and Washington listings.
+                🟢 Green indicators show 24/7 turnaround availability. We currently support Ontario, British Columbia, Alberta, and Québec listings.
               </p>
             </div>
 

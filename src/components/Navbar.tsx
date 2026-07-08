@@ -52,7 +52,7 @@ export default function Navbar({
             </div>
             <div className="flex flex-col">
               <span className="text-xl font-bold font-display tracking-wider text-slate-900 dark:text-white flex items-center gap-1">
-                GREEN <span className="text-[#D4AF37]">CLEAN</span>
+                CANADA <span className="text-[#D4AF37]">CLEAN</span>
               </span>
               <span className="text-[10px] uppercase tracking-widest text-[#D4AF37] font-semibold font-display">
                 Premium Turnover Services
@@ -122,7 +122,7 @@ export default function Navbar({
       >
         <div className="flex justify-between items-center mb-8">
           <span className="font-bold text-lg font-display tracking-wider text-slate-900 dark:text-white">
-            GREEN <span className="text-emerald-600">CLEAN</span>
+            CANADA <span className="text-emerald-600">CLEAN</span>
           </span>
           <button
             onClick={() => setIsOpen(false)}
